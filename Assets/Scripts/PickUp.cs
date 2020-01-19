@@ -9,8 +9,8 @@ public class PickUp : MonoBehaviour
     public GameObject playerHand;
     public GameObject playerArm;
     public LayerMask GroundLayer;
-    public float raycastMaxDistance = 10f;
-    public float originOffset = 3f;
+    public float raycastMaxDistance = 1f;
+    public float originOffset = 1f;
     public float origenY;
 
     public GameObject weaponOnHand;

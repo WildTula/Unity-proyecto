@@ -377,11 +377,11 @@ MonoBehaviour:
   GroundLayer:
     serializedVersion: 2
     m_Bits: 256
-  raycastMaxDistance: 10
+  raycastMaxDistance: 1
   originOffset: 3
   origenY: 0.2
   weaponOnHand: {fileID: 0}
-  dropSpeed: 900
+  dropSpeed: 20
 --- !u!1 &1481053213
 GameObject:
   m_ObjectHideFlags: 0
@@ -665,6 +665,7 @@ MonoBehaviour:
     type: 3}
   shotPoint: {fileID: 1481053214}
   facingRight: 0
+  playerArm: {fileID: 1551975261}
 --- !u!1 &1987174509
 GameObject:
   m_ObjectHideFlags: 0

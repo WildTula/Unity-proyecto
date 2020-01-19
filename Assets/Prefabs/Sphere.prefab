@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6979251481502176822}
   - component: {fileID: 3488580672334170458}
   - component: {fileID: 6513796898481108312}
-  - component: {fileID: 6971564151878570869}
+  - component: {fileID: 2262912361762524248}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -79,7 +79,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &6971564151878570869
+--- !u!114 &2262912361762524248
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,12 +88,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5942905308628110954}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67237f9bb0f33b5459c457a9c949630f, type: 3}
+  m_Script: {fileID: 11500000, guid: 422d9adab302f7f41878e69662ea6aed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  lifeTime: 1000
-  distance: 1000
+  speed: 1
+  lifeTime: 30
+  distance: 39
   damage: 0
   whatisSolid:
     serializedVersion: 2
